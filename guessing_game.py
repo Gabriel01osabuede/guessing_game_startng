@@ -1,11 +1,13 @@
 # building a guessiing game
-# import the random module  3333
+# import the random module
 import random
+
 # printing and introductry message to the game
 print('Welcome to the guessing game')
 print('There are 3 levels to the guessing game'
       '\nStage 1 Easy Level\nStage 2 Medium Level'
       '\nStage 3 Hard level\nPick One Option(stage : 1, 2 or 3)')
+
 
 # functin one for the easy level
 def easylevel():
@@ -38,7 +40,7 @@ def easylevel():
                 print('You have {} chances left'.format(chances))
 
 
-
+# Medium level
 def mediumlevel():
     chances = 4
     number = 20
@@ -64,6 +66,8 @@ def mediumlevel():
                 break
             else:
                 print('You have {} chances left'.format(chances))
+
+# Hard level
 def hardlevel():
     chances = 3
     number = 50
